@@ -13,9 +13,9 @@ body {
 }
 
 
-/* -------------------------------- */
-/* Current-time                     */
-/* -------------------------------- */
+/* --------------------------------------- */
+/* Current-time                            */
+/* --------------------------------------- */
 .center-contents {
   height: 100dvh;
   width: 100%;
@@ -39,9 +39,9 @@ body {
 }
 
 
-/* -------------------------------- */
-/* Alarm                            */
-/* -------------------------------- */
+/* --------------------------------------- */
+/* Alarm                                   */
+/* --------------------------------------- */
 .alarm-display {
   margin: 20px 0 30px;
   font-size: 22px;
@@ -55,9 +55,9 @@ body {
 }
 
 
-/* -------------------------------- */
-/* Form-Alarm                       */
-/* -------------------------------- */
+/* --------------------------------------- */
+/* Form-Alarm                              */
+/* --------------------------------------- */
 form {
   display: flex;
   justify-content: center;
@@ -82,7 +82,7 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-  border: 1px solid var(--secondary-color);
+  border: 1px solid #990000;
 }
 
 input[type="button"] {
@@ -95,4 +95,8 @@ input[type="button"] {
 input[type="button"]:hover {
   background-color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
+}
+
+.time-display.highlight {
+  color: #4afa7f;
 }
